@@ -1,6 +1,6 @@
 name: Build and push Docker images
 
-uses: docker/build-push-action@v2.5.0
+#uses: docker/build-push-action@v2.5.0
 
 on:
   push:
@@ -17,7 +17,7 @@ on:
 
 env:
   # TODO: Change variable to your image's name.
-  IMAGE_NAME: image
+  IMAGE_NAME: gh-actions
 
 jobs:
   # Run tests.
